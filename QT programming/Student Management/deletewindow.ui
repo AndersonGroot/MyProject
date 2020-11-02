@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DeleteWindow</class>
+ <widget class="QDialog" name="DeleteWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>425</width>
+    <height>522</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>删除</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icon.qrc">
+    <normaloff>:/new/prefix1/untitled1.png</normaloff>:/new/prefix1/untitled1.png</iconset>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <widget class="QPushButton" name="del_btnStuId">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定删除</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="del_btnLesId">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>210</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定删除</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="del_btnSelect">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>430</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定删除</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;删除学生信息&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;删除课程信息&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>320</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;删除选课信息（请先确定学生）&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>60</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;学生Id ：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>210</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;课程Id ：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>430</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;课程Id ：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>380</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;学生Id ：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="del_cmb_stuId">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>60</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="del_cmb_lesId">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>210</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="del_cmb_seleLesId">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>430</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="del_cmb_seleStuId">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>380</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>380</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定学生</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icon.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>del_btnSelect</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>DeleteWindow</receiver>
+   <slot>deletChooseSelectLesson(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>88</x>
+     <y>450</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>174</x>
+     <y>476</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>DeleteWindow</receiver>
+   <slot>deletChooseSelectStu(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>51</x>
+     <y>393</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>192</x>
+     <y>371</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>del_btnStuId</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>DeleteWindow</receiver>
+   <slot>deletChooseStu(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>63</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>206</x>
+     <y>103</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>del_btnLesId</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>DeleteWindow</receiver>
+   <slot>deletChooseLes(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>53</x>
+     <y>216</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>142</x>
+     <y>260</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>deletChooseStu(bool)</slot>
+  <slot>deletChooseLes(bool)</slot>
+  <slot>deletChooseSelectLesson(bool)</slot>
+  <slot>deletChooseSelectStu(bool)</slot>
+ </slots>
+</ui>

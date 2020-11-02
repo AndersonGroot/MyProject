@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ModifyWindow</class>
+ <widget class="QDialog" name="ModifyWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>558</width>
+    <height>548</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>修改</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icon.qrc">
+    <normaloff>:/new/prefix1/u=2934642150,1595688395&amp;fm=26&amp;gp=0.jpg.png</normaloff>:/new/prefix1/u=2934642150,1595688395&amp;fm=26&amp;gp=0.jpg.png</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>20</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 64, 6);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;修改信息&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>261</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;通过学生ID修改学生姓名：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>300</y>
+     <width>261</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;通过课程ID修改课程名：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>140</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请选择学生ID：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>190</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;请输入要修改的学生名：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cmb_stuId">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>140</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_stuName">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>190</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>360</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请选择课程ID：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>410</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;请输入要修改的课程名：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Txt_LesName">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>410</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cmb_lesId">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>360</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_modifyStuName">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>240</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(173, 173, 173);</string>
+   </property>
+   <property name="text">
+    <string>确定修改</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_modifySubName">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>460</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(173, 173, 173);</string>
+   </property>
+   <property name="text">
+    <string>确定修改</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icon.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btn_modifyStuName</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>ModifyWindow</receiver>
+   <slot>clickedModifyBtn(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>267</x>
+     <y>259</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>381</x>
+     <y>418</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_modifySubName</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>ModifyWindow</receiver>
+   <slot>clickedModifyBtn2(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>267</x>
+     <y>487</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>390</x>
+     <y>485</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>clickedModifyBtn(bool)</slot>
+  <slot>clickedModifyBtn2(bool)</slot>
+ </slots>
+</ui>
