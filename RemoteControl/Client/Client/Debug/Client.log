@@ -1,0 +1,11 @@
+﻿  stdafx.cpp
+c:\apps\vs2015_enterprise\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  c:\apps\vs2015_enterprise\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+  SCREEN.cpp
+  FILE.cpp
+  Cmd.cpp
+  ClientDlg.cpp
+  Client.cpp
+  正在生成代码...
+  Client.vcxproj -> C:\Users\decem\Desktop\CR34_刘傲寒_2019\Client\Debug\Client.exe
+  Client.vcxproj -> C:\Users\decem\Desktop\CR34_刘傲寒_2019\Client\Debug\Client.pdb (Full PDB)

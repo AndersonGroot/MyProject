@@ -1,0 +1,16 @@
+
+
+386_OBJECTS=\
+ $(OBJ_PATH)\$O\firstdriver.obj \
+
+
+
+
+
+# lowercased
+BASEDIR=c:\apps\wdk
+OBJECT_ROOT=c:\apps\wdk
+MAKEDIR_LOWERCASE=c:\users\admin\onedrive\code\driver\firstdriver
+OBJ_PATH=c:\users\admin\onedrive\code\driver\firstdriver
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0

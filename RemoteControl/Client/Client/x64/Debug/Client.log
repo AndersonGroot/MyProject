@@ -1,0 +1,13 @@
+﻿  stdafx.cpp
+c:\apps\vs2015_enterprise\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  c:\apps\vs2015_enterprise\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+  SCREEN.cpp
+  FILE.cpp
+  Cmd.cpp
+  ClientDlg.cpp
+c:\users\decem\documents\tencent files\494774407\filerecv\远控项目\client\client\client\clientdlg.cpp(67): warning C4244: “=”: 从“SOCKET”转换到“int”，可能丢失数据
+c:\users\decem\documents\tencent files\494774407\filerecv\远控项目\client\client\client\clientdlg.cpp(431): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+  Client.cpp
+  正在生成代码...
+  Client.vcxproj -> C:\Users\decem\Documents\Tencent Files\494774407\FileRecv\远控项目\Client\Client\x64\Debug\Client.exe
+  Client.vcxproj -> C:\Users\decem\Documents\Tencent Files\494774407\FileRecv\远控项目\Client\Client\x64\Debug\Client.pdb (Full PDB)
